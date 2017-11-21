@@ -22,3 +22,25 @@ li  {
 li a:hover {
     background-color: #111;
 }
+
+
+
+<html>
+<head>
+<style>
+h1 {
+    text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Heading 1 (center)</h1>
+
+
+<p>The three headings above are aligned center, left and right.</p>
+
+</body>
+</html>
