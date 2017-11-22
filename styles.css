@@ -1,13 +1,29 @@
+
+
+
+h1 {
+    font-size: 4.0em; /* 40px/16=2.5em */
+	text-align: center;
+    text-transform: uppercase;
+    color: #FF0000
+	
+}
+
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
-    background-color: #333;
+	border: 1px solid #FF0000;
+    background-color: black;
+	
 }
 
 li {
-    float: left;
+    float: cen;
 }
 
 li  {
@@ -25,22 +41,4 @@ li a:hover {
 
 
 
-<html>
-<head>
-<style>
-h1 {
-    text-align: center;
 }
-
-
-</style>
-</head>
-<body>
-
-<h1>Heading 1 (center)</h1>
-
-
-<p>The three headings above are aligned center, left and right.</p>
-
-</body>
-</html>
