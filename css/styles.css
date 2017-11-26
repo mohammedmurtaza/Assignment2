@@ -7,6 +7,14 @@ h1 {
 	
 }
 
+h2 {
+    font-size: 20; /* 40px/16=2.5em */
+  text-transform: uppercase;
+	font-family:Impact, Charcoal, sans-serif;
+    color: #000000
+	
+}
+
  img{
     display: block;
     margin: auto;
@@ -15,11 +23,36 @@ h1 {
 }
 
 
-
 nav {
-	font-size: 2.0em; /* 40px/16=2.5em */
 	text-align: center;
-  text-transform: uppercase;
+	font-size: 20px;
+	text-transform: uppercase;
 	font-family:Impact, Charcoal, sans-serif;
-    color: #000000
+	
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	padding: 0.5em;
+	font-weight: bold;
+	color: #000000
+}
+
+nav a:link, nav a:visited {
+	colour: #cc80ff;
+}
+
+nav a:hover {
+	background: #66ffe0;
+	color: white;
+	transition: 1s all;
 }
