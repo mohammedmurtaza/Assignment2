@@ -1,5 +1,5 @@
 h1 {
-    font-size: 4.0em; /* 40px/16=2.5em */
+    font-size: 3.0em; /* 40px/16=2.5em */
 	text-align: center;
   text-transform: uppercase;
 	font-family:Impact, Charcoal, sans-serif;
@@ -8,13 +8,18 @@ h1 {
 }
 
  img{
-    display: block; 
-	height: 250px;
-    width: 250px;
-	margin: auto;
+    display: block;
+    margin: auto;
     border-radius: 50px;
 	
 }
 
-  
 
+
+nav {
+	font-size: 2.0em; /* 40px/16=2.5em */
+	text-align: center;
+  text-transform: uppercase;
+	font-family:Impact, Charcoal, sans-serif;
+    color: #000000
+}
