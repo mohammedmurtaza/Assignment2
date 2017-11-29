@@ -78,7 +78,7 @@ nav a:hover {
 	width:50%;
 	height:400px;
 	display: block;
-    margin: auto;
+  margin: auto;
 
 }
 
@@ -87,6 +87,16 @@ section {
 	/*text-align: center;*/
 	display: block;
 	
+}
+
+table {
+	text-align: center;
+	width: 80%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #000000;
 }
 
 
