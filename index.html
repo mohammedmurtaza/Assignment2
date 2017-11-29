@@ -24,12 +24,49 @@
 			</ul>
 		</nav>
 		
+	<h2 id="contact"> 2 Denham Walk, Peterborough, PE3 9UE</h2>	
+
+
+
+
+<div id="map"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var myCenter = new google.maps.LatLng(52.581895, -0.273904); 
+  var mapOptions = {center: myCenter, zoom: 18};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA33e2H5TFouI2pciuJ1CMqI2zu9vFxEk&callback=myMap"></script>
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<section>
 		
 		<h2 id="profile">Profile</h2>
-			<p>A current Business Information System student who has recently completed a 12-month industrial placement at Caterpillar. This experience has enabled me to develop strong analytical skills and knowledge which can be applicable to any field of workplace.</p>
+			<p id="mutz">A current Business Information System student who has recently completed a 12-month industrial placement at Caterpillar. This experience has enabled me to develop strong analytical skills and knowledge which can be applicable to any field of workplace.</p>
 			<p>Able to work well both individually and as part of a productive team demonstrating the motivation and problem-solving abilities required to meet demanding deadlines while maintaining the highest of standards. </p>
 			<p>I am seeking for an opportunity to work in a fast-paced environment where I can utilise my skills and put them into practice.</p>
-			
+		</section>
 		<h2 id="#experience">Experience</h2>
 		<h3>Business Analyst, Caterpillar (Feb 2017 - June 2017)</h3>
 		<ul>

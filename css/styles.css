@@ -7,8 +7,20 @@ h1 {
 	
 }
 
+html {
+	background-color: #99ffcc;
+}
+
 h2 {
-    font-size: 20; /* 40px/16=2.5em */
+    font-size: 20px; 
+  text-transform: uppercase;
+	font-family:Impact, Charcoal, sans-serif;
+    color: #000000
+	
+}
+
+h3 {
+    font-size: 15px; 
   text-transform: uppercase;
 	font-family:Impact, Charcoal, sans-serif;
     color: #000000
@@ -56,3 +68,26 @@ nav a:hover {
 	color: white;
 	transition: 1s all;
 }
+
+#contact {
+	text-align: center;
+}
+
+#map {
+	border-radius: 50px;
+	width:50%;
+	height:400px;
+	display: block;
+    margin: auto;
+
+}
+
+section {
+	width: 100%;
+	/*text-align: center;*/
+	display: block;
+	
+}
+
+
+
