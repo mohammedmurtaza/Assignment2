@@ -14,23 +14,35 @@
 		<img src="images/mohammed.jpg" alt="Mohammed" width="300" height="300">
 		
 		
-		<a id="menu" href="#">Menu</a>
-		<nav>
-				<a href="#profile">Profile</a>
-				<a href="#experience">Experience</a>
-				<a href="#education">Education</a>
-				<a href="#achievements">Achievements<a/></li>
-		</nav>
-		<script scr="javascript/script.js"> </script>
-		
+<nav class="topnav" id="myTopnav">
+  <a href="#profile">Profile</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#achievements">Achievements</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div class="contacts">
 		<a class="button" href="contactme.html"><span>Contact Me</span></a>
-		
-	
+		</div>
 		
 	<h2 id="contact"> 2 Denham Walk, Peterborough, PE3 9UE</h2>	
 
 
-
+		
+	
 
 <div id="map"></div>
 
@@ -61,7 +73,7 @@ function myMap() {
 			<p>I am seeking for an opportunity to work in a fast-paced environment where I can utilise my skills and put them into practice.</p>
 		</section>
 		<section>
-		<h2 id="#experience">Experience</h2>
+		<h2 id="experience">Experience</h2>
 		<h3>Business Analyst, Caterpillar (Feb 2017 - June 2017)</h3>
 		<ul>
 			<li>Became the lead analyst for the integration of new eCommerce platform with Salesforce.com. Took on requirements that had been developed by an external organisation. Worked with the Cat India team and business partners to bring this solution into production. During this exercise also coordinating significant systems and UAT activities.</li>
