@@ -148,6 +148,12 @@ font-family:Impact, Charcoal, sans-serif;
 	text-align: center;
 }
 
+#sendmessage {
+	text-align: center;
+	font-size: 50px;
+
+}
+
 #map {
 	border-radius: 50px;
 	width:50%;
