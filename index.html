@@ -3,24 +3,33 @@
 <html>
 	<head>
 		<title> Mohammed's CV </title>
-		<link rel="stylesheet" href="css/styles.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styless.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
 	<body>
 		<h1> Mohammed Murtaza's CV</h1>
-		<img src="images/mohammed.jpg" alt="Mohammed" width="300" height="300">
+		<img src="images/mohammed.jpg" alt="Mohammed">
 		
-		<nav class="topnav" id="myTopnav">
+		<a id="menu" href="#">Menu</a>
+  <nav id="nav-menu">
+    <a href="#profile">Profile</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+		<a href="#achievements">Achievements</a>
+    
+  </nav>
+		
+		<!--<nav class="topnav" id="myTopnav"
 			<a href="#profile">Profile</a>
 			<a href="#experience">Experience</a>
 			<a href="#education">Education</a>
 			<a href="#achievements">Achievements</a>
 			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-		</nav>
+		</nav>-->
 
 
-<script>
+<!--<script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -29,7 +38,7 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-</script>
+</script>-->
 
 <br>
 </br>
@@ -65,9 +74,9 @@ function myMap() {
 
 		<section>
 		<h2 id="profile">Profile</h2>
-			<p> A current Business Information System student who has recently completed a 12-month industrial placement at Caterpillar. This experience has enabled me to develop strong analytical skills and knowledge which can be applicable to any field of workplace.</p>
-			<p>Able to work well both individually and as part of a productive team demonstrating the motivation and problem-solving abilities required to meet demanding deadlines while maintaining the highest of standards. </p>
-			<p>I am seeking for an opportunity to work in a fast-paced environment where I can utilise my skills and put them into practice.</p>
+			<p id="text"> A current Business Information System student who has recently completed a 12-month industrial placement at Caterpillar. This experience has enabled me to develop strong analytical skills and knowledge which can be applicable to any field of workplace.</p>
+			<p id="text">Able to work well both individually and as part of a productive team demonstrating the motivation and problem-solving abilities required to meet demanding deadlines while maintaining the highest of standards. </p>
+			<p id="text">I am seeking for an opportunity to work in a fast-paced environment where I can utilise my skills and put them into practice.</p>
 		</section>
 		
 		<section>
@@ -187,6 +196,6 @@ function myMap() {
 			</section>
 		
 	
-		
+		<script src="javascript/script.js"></script>
 	</body>
 
