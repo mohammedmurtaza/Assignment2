@@ -104,6 +104,20 @@ a {
 	text-transform: uppercase;
 	font-size: 15px;
 	
+	
+}
+#texts {
+	font-family:Comic Sans MS, cursive, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: left;
+	
+}
+#tables {
+	font-family:Comic Sans MS, cursive, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	
 }
 
 h1 {
@@ -131,6 +145,16 @@ h3 {
    color: #000000 
 }
 
+table { 
+	text-align: center; 
+	width: 80%; 
+	border-collapse: collapse; 
+}
+
+th, td {
+	border: 1px solid #000000; 
+}
+
 
    
 main {
@@ -145,6 +169,37 @@ section {
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
+	
+
+  nav a {
+    width: 44%;
+    display: inline-block;
+		font-size: 20px;
+  }
+  nav a:hover {
+    background: #777;
+  }
+	
+  h1 {
+    font-size: 50px;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+	
+	
+  section {
+    width: 44%;
+    margin: 2%;
+    display: inline-block;
+    
+    color: #000000;
+  }
+  section:hover {
+    background: #666;
+  }
+}
   /* 
     - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
     - add any hover states here
@@ -159,13 +214,31 @@ section {
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
-	img{ 
+img{ 
     display: block;
     margin: auto; 
     border-radius: 200px;
 		width: 300px;
 	
 } 
+
+nav {
+  background: #aaa;
+  display: none;
+}
+nav a {
+  padding: 1em;
+  display: block;
+	text-transform: uppercase;
+	font-family:Impact, Charcoal, sans-serif;
+}
+#menu {
+  padding: 1em;
+  display: block;
+	text-transform: uppercase;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 50px;
+}
   /*
     - applies to screens larger than 999px only
     - add a max-width to your main section
