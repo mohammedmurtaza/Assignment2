@@ -31,7 +31,7 @@ header {
   color: #222;
 }
 nav {
-  background: #aaa;
+  
   display: none;
 }
 nav a {
@@ -117,7 +117,11 @@ a {
 	font-family:Comic Sans MS, cursive, sans-serif;
 	text-transform: uppercase;
 	font-size: 15px;
-	
+}
+
+#education{
+		overflow: scroll; /* Scrollbar are always visible */
+overflow: auto;   /* Scrollbar is displayed as it's needed */
 }
 
 h1 {
@@ -172,12 +176,14 @@ section {
 	
 
   nav a {
-    width: 44%;
+    width: 40%;
     display: inline-block;
 		font-size: 20px;
+		
+		
   }
   nav a:hover {
-    background: #777;
+    background: #ffffff;
   }
 	
   h1 {
@@ -188,17 +194,86 @@ section {
     margin: 0 auto;
   }
 	
+	.button { 
+  display: inline-block; 
+  border-radius: 4px;
+  background-color: #f4511e; 
+  border: none;
+  color: #FFFFFF; 
+  font-size: 20px;
+  text-transform: uppercase; 
+  font-family:Impact, Charcoal, sans-serif; 
+  padding: 20px; 
+  width: 150px; 
+  transition: all 0.5s;
+  cursor: pointer; 
+  margin-bottom:13px; 
+  text-align: center; 
+	
+} 
+	
 	
   section {
     width: 44%;
     margin: 2%;
-    display: inline-block;
+    display: block;
     
     color: #000000;
   }
-  section:hover {
-    background: #666;
-  }
+	
+	#profile {
+		width: 80%;
+    margin: 2%;
+		display: inline-block;
+		outline-style: outset;
+	
+	}
+	
+	#experience {
+		width: 80%;
+    margin: 2%;
+		display: inline-block;
+		outline-style: outset;
+	
+	}
+	
+	#education {
+		width: 80%;
+    margin: 2%;
+		display: inline-block;
+		outline-style: outset;
+		overflow: scroll; /* Scrollbar are always visible */
+overflow: auto;   /* Scrollbar is displayed as it's needed */
+	}
+	
+	#tables { 
+	text-align: center; 
+	width: 100%; 
+	margin-left:auto;
+	margin-right: auto;
+	border-collapse: collapse; 
+	
+}
+
+th, td {
+	border: 1px solid #000000; 
+}
+	
+	#references {
+		width: 80%;
+    margin: 2%;
+		display: inline-block;
+		outline-style: outset;
+	}
+  
+	
+	#achievements {
+		width: 80%;
+    margin: 2%;
+		display: inline-block;
+		outline-style: outset;
+	}
+	
 }
   /* 
     - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
@@ -223,7 +298,7 @@ img{
 } 
 
 nav {
-  background: #aaa;
+ 
   display: none;
 }
 nav a {
