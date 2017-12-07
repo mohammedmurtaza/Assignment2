@@ -191,7 +191,7 @@ section {
 	
 	img{ 
     
-    border-radius: 100px;
+    border-radius: 50%;
 		width: 250px;	
 } 
 	
@@ -318,13 +318,11 @@ th, td {
 
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
 	
-		img{ 
-    
+	img{ 
     border-radius: 200px;
-		width: 300px;	
- 
+	  width: 300px;	
   }
   nav {
     display: block;
@@ -338,9 +336,14 @@ th, td {
   }
   main {
     max-width: 1000px;
+		
   }
+	h1 {
+		color: red;
+		
+	}
 
-
+}
   
 
 	
