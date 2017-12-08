@@ -12,6 +12,13 @@ img{
 		width: 200px;	
 } 
 
+#menubutton{
+	border-radius: 100px;
+	width: 50px;	
+	
+}
+
+
 html { 
 	background-image: url("../image/blue.jpg"); 
 	background-repeat: no-repeat; 
@@ -310,7 +317,7 @@ th, td {
 
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
 	
 	img{ 
     border-radius: 200px;
