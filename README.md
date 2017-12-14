@@ -24,7 +24,7 @@ https://www.w3schools.com/cssref/pr_font_font-family.asp
 
 https://www.w3schools.com/cssref/pr_outline-style.asp
 
-Lab Week 02 - Link Nav to each heading 
+Lab Week 02 - Link nav to each heading 
 
 Lab Week 04 - Mobile First Responsiveness
 
