@@ -24,4 +24,6 @@
 This helps make my CV responsive from a mobile first vuew as as making it suitable to tablet and desktop view. 
 This js code changes the menu (navbar) depending on which view the CV is at. 
 At mobile first - it allows the user to click on the menu button to bring up my navbar in a list format
-The navbar expands as the pixel size gets bigger making it suitable to tablet and desktop version.  
+The navbar expands as the pixel size gets bigger making it suitable to tablet and desktop version.*/
+
+ 
