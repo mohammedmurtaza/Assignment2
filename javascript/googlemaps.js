@@ -10,3 +10,6 @@ function myMap() {
   marker.setMap(map);
 }
 
+/* This javascript function uses api to bring google maps of my home address to make it visible on my CV. 
+This piece of coding includes an animation of a red marker which shows where my house is located on the maps. 
+In order to get this functionality to work, I had to register and get my own API key from Google Developers.*/
