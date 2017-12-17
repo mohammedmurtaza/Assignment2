@@ -248,6 +248,39 @@ section {
 	 height: 50px;
 }
 
+.slideshow {
+  margin: auto;
+  width: 500px; /* altering this breaks the centering??? */
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  position: absolute;
+	display: block;
+  width: 400px;
+  animation: round 16s infinite;
+  opacity: 0;
+	padding: 40px;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) { animation-delay: 12s; }
+img:nth-child(2) { animation-delay: 8s; }
+img:nth-child(3) { animation-delay: 4s; }
+img:nth-child(4) { animation-delay: 2s; }
+img:nth-child(5) { animation-delay: 0s; }
+
+
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
