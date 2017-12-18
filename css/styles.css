@@ -1,256 +1,287 @@
-/* GLOBAL AND MOBILE STYLES FIRST */
-
-/*
-  - this applies to any screen sizes under 500px
-  - if you leave the width off, sections will automatically fill the full page width
-  - no margins and little or no padding
-*/
-
- 
-@-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
 @keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0px;
+  }
+
+  to {
+    background-position: 500px;
+  }
 }
 
-img{ 
-    
-    border-radius: 100px;
-		width: 200px;	
-} 
-
-#menubutton{
-	border-radius: 100px;
-	width: 50px;	
-	
+img {
+  border-radius: 100px;
+  width: 200px;
 }
 
+#menubutton {
+  border-radius: 100px;
+  width: 50px;
+}
 
-html { 
-	background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
-	-webkit-animation: 10s linear 0s normal none infinite animate;
-	-moz-animation: 10s linear 0s normal none infinite animate;
-	-ms-animation: 10s linear 0s normal none infinite animate;
-	-o-animation: 10s linear 0s normal none infinite animate;
-	animation: 10s linear 0s normal none infinite animate;
- }
- 
+html {
+  background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+  -webkit-animation: 10s linear 0s normal none infinite animate;
+  -moz-animation: 10s linear 0s normal none infinite animate;
+  animation: 10s linear 0s normal none infinite animate;
+}
+
 body {
-
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   color: #000000;
   text-align: center;
 }
+
 header {
   background: #ccc;
   color: #222;
 }
+
 nav {
-  
   display: none;
 }
+
 nav a {
   padding: 1em;
   display: block;
-	text-transform: uppercase;
-	font-family:Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-family: Impact, Charcoal, sans-serif;
 }
+
 #menu {
   padding: 1em;
   display: block;
-	text-transform: uppercase;
-	font-family:Impact, Charcoal, sans-serif;
-	font-size: 30px;
+  text-transform: uppercase;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 30px;
 }
+
 .show-menu {
   display: inline;
-	font-family:Impact, Charcoal, sans-serif;
-	font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
 }
+
 a {
   color: #000;
   text-decoration: none;
 }
 
- #map { 
-	border-radius: 50px; 
-	width:70%; 
-	height:250px; 
-	display: block;
-  margin: auto; 
-	margin-bottom:13px; 
-
-} 
-
-#contact {
-	margin-bottom:15px; 
+#map {
+  border-radius: 50px;
+  width: 70%;
+  height: 250px;
+  display: block;
+  margin: auto;
+  margin-bottom: 13px;
 }
 
+#contact {
+  margin-bottom: 15px;
+}
 
-.button { 
-  display: inline-block; 
+.button {
+  display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e; 
+  background-color: #f4511e;
   border: none;
-  color: #FFFFFF; 
+  color: #FFFFFF;
   font-size: 20px;
-  text-transform: uppercase; 
-  font-family:Impact, Charcoal, sans-serif; 
-  padding: 20px; 
-  width: 100px; 
+  text-transform: uppercase;
+  font-family: Impact, Charcoal, sans-serif;
+  padding: 20px;
+  width: 100px;
   transition: all 0.5s;
-  cursor: pointer; 
-  margin: 0 auto; 
-	margin-bottom:15px; 
-  text-align: center; 
-} 
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
 
 .button span {
   cursor: pointer;
-  display: inline-block; 
-  position: relative; 
+  display: inline-block;
+  position: relative;
   transition: 0.5s;
 }
 
 .button span:after {
-  content: '\00bb'; 
+  content: '\00bb';
   position: absolute;
-  opacity: 0; 
-  top: 0; 
-  right: -20px; 
-  transition: 0.5s; 
-} 
-
-.button:hover span { 
-	padding-right: 25px;
-} 
-
-.button:hover span:after { 
-	opacity: 1; 
-  right: 0; 
-} 
-
-#text {
-	font-family:Comic Sans MS, cursive, sans-serif;
-	text-transform: uppercase;
-	font-size: 15px;
-	
-	
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
-#texts {
-	font-family:Comic Sans MS, cursive, sans-serif;
-	text-transform: uppercase;
-	font-size: 15px;
-	text-align: left;
-	
+
+.button:hover span {
+  padding-right: 25px;
 }
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#text1 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#text2 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#text3 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#texts1 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts2 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts3 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts4 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts5 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts6 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts7 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts8 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
+#texts9 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: left;
+}
+
 #tables {
-	font-family:Comic Sans MS, cursive, sans-serif;
-	text-transform: uppercase;
-	font-size: 15px;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
-#education{
-		overflow: scroll; /* Scrollbar are always visible */
-overflow: auto;   /* Scrollbar is displayed as it's needed */
+#education {
+  overflow: scroll;
+  overflow: auto;
 }
 
 h1 {
   font-size: 2.0em;
   margin: 0;
   padding: 1em;
-	text-transform: uppercase;
-	font-family:Impact, Charcoal, sans-serif;
-	color: #000000;
+  text-transform: uppercase;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #000000;
 }
 
 h2 {
   font-size: 30px;
   margin: 0;
-  /*padding: 0 1em 1em 1em;*/
-	text-transform: uppercase;
-	font-family:Impact, Charcoal, sans-serif;
-	color: #000000;
+  text-transform: uppercase;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #000000;
 }
 
-h3 { 
-   font-size: 20px;  
-	 font-family:Impact, Charcoal, sans-serif; 
-	 text-transform: uppercase;
-   color: #000000 
+h3 {
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-table { 
-	text-align: center; 
-	width: 80%; 
-	border-collapse: collapse; 
+table {
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
 }
 
 th, td {
-	border: 1px solid #000000; 
+  border: 1px solid #000000;
 }
 
-
-   
 main {
   background: #eee;
   padding: .5em;
 }
-section {
-  
-}
 
 #linkedin {
-	 border-radius: 8px;
-	 width: 50px;
-	 height: 50px;
-	 
-	
-}
-#twitter{
-	 border-radius: 8px;
-	 width: 50px;
-	 height: 50px;
-	 
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
 }
 
-#instagram{
-	 border-radius: 8px;
-	 width: 50px;
-	 height: 50px;
-	 
-	
+#twitter {
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
 }
 
-#sitemap{
-	border-radius: 8px;
-	 width: 50px;
-	 height: 50px;
+#instagram {
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+#sitemap {
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
 }
 
 .slideshow {
   margin: auto;
-  width: 500px; /* altering this breaks the centering??? */
+  width: 500px;
+ /* altering this breaks the centering??? */
   height: 400px;
   overflow: hidden;
   position: relative;
@@ -258,270 +289,262 @@ section {
 
 .slideshow img {
   position: absolute;
-	display: block;
+  display: block;
   width: 400px;
   animation: round 16s infinite;
   opacity: 0;
-	padding: 40px;
+  padding: 40px;
 }
 
 @keyframes round {
   25% {
     opacity: 1;
   }
+
   40% {
     opacity: 0;
   }
 }
 
-img:nth-child(1) { animation-delay: 12s; }
-img:nth-child(2) { animation-delay: 8s; }
-img:nth-child(3) { animation-delay: 4s; }
-img:nth-child(4) { animation-delay: 2s; }
-img:nth-child(5) { animation-delay: 0s; }
+img:nth-child(1) {
+  animation-delay: 12s;
+}
 
+img:nth-child(2) {
+  animation-delay: 8s;
+}
 
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 2s;
+}
+
+img:nth-child(5) {
+  animation-delay: 0s;
+}
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
 	
-	img{ 
-    
+  img {
     border-radius: 50%;
-		width: 250px;	
-} 
-	
+    width: 250px;
+  }
 
   nav a {
     width: 40%;
     display: inline-block;
-		font-size: 20px;
-		
-		
+    font-size: 20px;
   }
+
   nav a:hover {
     background: #ffffff;
   }
-	
+
   h1 {
     font-size: 50px;
   }
+
   main {
     width: 90%;
     margin: 0 auto;
   }
-	
-	.button { 
-  display: inline-block; 
-  border-radius: 4px;
-  background-color: #f4511e; 
-  border: none;
-  color: #FFFFFF; 
-  font-size: 20px;
-  text-transform: uppercase; 
-  font-family:Impact, Charcoal, sans-serif; 
-  padding: 20px; 
-  width: 150px; 
-  transition: all 0.5s;
-  cursor: pointer; 
-  margin-bottom:15px; 
-  text-align: center; 
-	
-} 
 
- #map { 
-	border-radius: 50px; 
-	width:80%; 
-	height:300px; 
-	display: block;
-  margin: auto; 
-	margin-bottom:13px; 
-} 
-	
-	
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #map {
+    border-radius: 50px;
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
+  }
+
   section {
     width: 44%;
     margin: 2%;
     display: block;
-    
     color: #000000;
   }
-	
-	#profile {
-		width: 80%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	
-	}
-	
-	#experience {
-		width: 80%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	
-	}
-	
-	#education {
-		width: 80%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-		overflow: scroll; /* Scrollbar are always visible */
-overflow: auto;   /* Scrollbar is displayed as it's needed */
-	}
-	
-	#tables { 
-	text-align: center; 
-	width: 100%; 
-	margin-left:auto;
-	margin-right: auto;
-	border-collapse: collapse; 
-	
-}
 
-th, td {
-	border: 1px solid #000000; 
-}
-	
-	#references {
-		width: 80%;
+  #profile {
+    width: 80%;
     margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	}
-  
-	
-	#achievements {
-		width: 80%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #experience {
+    width: 80%;
     margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	}
-	
-	#hobbies {
-		width: 80%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #education {
+    width: 80%;
     margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	
-	}
-	
+    display: inline-block;
+    outline-style: outset;
+    overflow: scroll;
+    overflow: auto;
+  }
+
+  #tables {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #000000;
+  }
+
+  #references {
+    width: 80%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #achievements {
+    width: 80%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #hobbies {
+    width: 80%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
 }
 
 /* END FIRST BREAKPOINT */
 
-
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
 	
-	img{ 
+  img {
     border-radius: 200px;
-	  width: 300px;	
+    width: 300px;
   }
+
   nav {
     display: block;
-		font-size: 6.0em;
+    font-size: 6.0em;
   }
+
   nav a {
     line-height: 3em;
     width: inherit;
   }
+
   #menu {
     display: none;
   }
+
   main {
     max-width: 1000px;
-		
   }
-	h1 {
-		color: black;
-		font-size: 4.0em;
-		
-	}
-	
-	.button { 
-  display: inline-block; 
-  border-radius: 4px;
-  background-color: #f4511e; 
-  border: none;
-  color: #FFFFFF; 
-  font-size: 20px;
-  text-transform: uppercase; 
-  font-family:Impact, Charcoal, sans-serif; 
-  padding: 20px; 
-  width: 200px; 
-  transition: all 0.5s;
-  cursor: pointer; 
-  margin-bottom:15px; 
-  text-align: center; 
-	
-} 
-	
-	 #map { 
-	border-radius: 50px; 
-	width:90%; 
-	height:400px; 
-	display: block;
-  margin: auto; 
-	margin-bottom:13px; 
-	} 
-	
-	#profile {
-		width: 90%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	
-	}
-	
-	#experience {
-		width: 90%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	
-	}
-	#references {
-		width: 90%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	}
-	#education {
-		width: 90%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	}
-  
-	
-	#achievements {
-		width: 90%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	}
-	
-	#hobbies {
-		width: 90%;
-    margin: 2%;
-		display: inline-block;
-		outline-style: outset;
-	
-	}
-	
 
-}
-  
+  h1 {
+    color: black;
+    font-size: 4.0em;
+  }
 
-	
-  /*
-    - applies to screens larger than 999px only
-    - add a max-width to your main section
-    - further decrease size of sections
-    - increase size of headings and global fonts
-  */
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #map {
+    border-radius: 50px;
+    width: 90%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
+  }
+
+  #profile {
+    width: 90%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #experience {
+    width: 90%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #references {
+    width: 90%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #education {
+    width: 90%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #achievements {
+    width: 90%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
+
+  #hobbies {
+    width: 90%;
+    margin: 2%;
+    display: inline-block;
+    outline-style: outset;
+  }
 }
+
+
+
 /* END SECOND BREAKPOINT */
