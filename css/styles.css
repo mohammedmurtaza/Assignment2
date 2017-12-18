@@ -289,11 +289,13 @@ main {
 
 .slideshow img {
   position: absolute;
+	border-radius: 8px;
   display: block;
   width: 400px;
+	height: 300px;
   animation: round 16s infinite;
   opacity: 0;
-  padding: 40px;
+  padding: 25px;
 }
 
 @keyframes round {
@@ -441,6 +443,55 @@ img:nth-child(5) {
     display: inline-block;
     outline-style: outset;
   }
+	
+	.slideshow {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+	}
+
+.slideshow img {
+  position: absolute;
+	border-radius: 8px;
+  display: block;
+  width: 400px;
+	height: 350px;
+  animation: round 16s infinite;
+  opacity: 0;
+  padding: 30px;
+	
+	
+	}
+	@keyframes round {
+  25% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 2s;
+}
+
+img:nth-child(5) {
+  animation-delay: 0s;
+}
 }
 
 /* END FIRST BREAKPOINT */
@@ -543,6 +594,58 @@ img:nth-child(5) {
     display: inline-block;
     outline-style: outset;
   }
+	
+	
+	.slideshow {
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+	}
+
+.slideshow img {
+  position: absolute;
+	border-radius: 8px;
+  display: block;
+  width: 600px;
+	height: 300px;
+  animation: round 16s infinite;
+  opacity: 0;
+  padding: 40px;
+	}
+	
+	}
+	@keyframes round {
+  25% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 2s;
+}
+
+img:nth-child(5) {
+  animation-delay: 0s;
+}
+
 }
 
 
