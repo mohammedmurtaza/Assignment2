@@ -296,8 +296,8 @@ main {
   position: absolute;
   border-radius: 8px;
   display: block;
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 263px;
   animation: round 16s infinite;
   opacity: 0;
   padding: 25px;
