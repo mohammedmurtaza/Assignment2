@@ -278,6 +278,12 @@ main {
   height: 50px;
 }
 
+#topbutton {
+	border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+
 .slideshow {
   margin: auto;
   width: 500px;
@@ -325,6 +331,28 @@ img:nth-child(4) {
 
 img:nth-child(5) {
   animation-delay: 2s;
+}
+
+#cv {
+	font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#coverletter {
+	border-radius: 8px;
+  width: 50px;
+  height: 50px;
+	
+}
+
+#ph2 {
+	font-size: 18px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+	
 }
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -442,6 +470,12 @@ img:nth-child(5) {
     display: inline-block;
     outline-style: outset;
   }
+	
+	#coverletter {
+		border-radius: 8px;
+		width: 60px;
+		height: 60px;
+	}
 
   .slideshow {
     width: 500px;
@@ -460,7 +494,30 @@ img:nth-child(5) {
     opacity: 0;
     padding: 30px;
   }
+	
+
+	img:nth-child(1) {
+		animation-delay: 12s;
+	}
+
+	img:nth-child(2) {
+		animation-delay: 8s;
+	}
+
+	img:nth-child(3) {
+		animation-delay: 6s;
+	}
+
+	img:nth-child(4) {
+		animation-delay: 4s;
+	}
+
+	img:nth-child(5) {
+		animation-delay: 2s;
+	}
 }
+
+
 
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
@@ -560,4 +617,49 @@ img:nth-child(5) {
     display: inline-block;
     outline-style: outset;
   }
+	
+	#coverletter {
+	border-radius: 8px;
+  width: 70px;
+  height: 70px;
+	}
+	
+	.slideshow {
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slideshow img {
+    position: absolute;
+    border-radius: 8px;
+    display: block;
+    width: 500px;
+    height: 350px;
+    animation: round 16s infinite;
+    opacity: 0;
+    padding: 30px;
+  }
+	
+
+	img:nth-child(1) {
+		animation-delay: 12s;
+	}
+
+	img:nth-child(2) {
+		animation-delay: 8s;
+	}
+
+	img:nth-child(3) {
+		animation-delay: 6s;
+	}
+
+	img:nth-child(4) {
+		animation-delay: 4s;
+	}
+
+	img:nth-child(5) {
+		animation-delay: 2s;
+	}
 }
