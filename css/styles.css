@@ -352,8 +352,33 @@ img:nth-child(5) {
   font-family: Impact, Charcoal, sans-serif;
   text-transform: uppercase;
   color: #000000;
-	
+	margin-bottom: 30px;
 }
+
+#ph3 {
+	font-size: 18px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+	margin-bottom: 80px;
+}
+
+#sendmessage {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#sendemail {
+	background-color: #ffffff;
+	width: 250px;
+	margin: 40px auto;
+	border-radius: 10px;
+}
+
+#email {
+	width: 200px;
+}
+
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
@@ -515,10 +540,15 @@ img:nth-child(5) {
 	img:nth-child(5) {
 		animation-delay: 2s;
 	}
+	
+	#ph3 {
+	font-size: 18px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+	margin-bottom: 140px;
+	}
 }
-
-
-
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
@@ -662,4 +692,36 @@ img:nth-child(5) {
 	img:nth-child(5) {
 		animation-delay: 2s;
 	}
+	
+	#ph2 {
+		font-size: 18px;
+		font-family: Impact, Charcoal, sans-serif;
+		text-transform: uppercase;
+		color: #000000;
+		margin-bottom: 30px;
+	}
+
+	#ph3 {
+		font-size: 18px;
+		font-family: Impact, Charcoal, sans-serif;
+		text-transform: uppercase;
+		color: #000000;
+		margin-bottom: 120px;
+	}
+
+	#sendmessage {
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+
+	#email {
+		width: 200px;
+	}
+
+	#emailpage {
+		width: 1000px;
+		margin: 0 auto;
+		border-radius: 10px;
+	}
+
 }
