@@ -68,7 +68,7 @@ a {
 }
 
 #map {
-  border-radius: 50px;
+  border-radius: 10px;
   width: 70%;
   height: 250px;
   display: block;
@@ -400,7 +400,7 @@ img:nth-child(5) {
   }
 
   #map {
-    border-radius: 50px;
+    border-radius: 10px;
     width: 80%;
     height: 300px;
     display: block;
@@ -568,7 +568,7 @@ img:nth-child(5) {
   }
 
   #map {
-    border-radius: 50px;
+    border-radius: 10px;
     width: 90%;
     height: 400px;
     display: block;
