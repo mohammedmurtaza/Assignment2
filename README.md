@@ -12,6 +12,11 @@ One of the main issues I faced during the development process was rather simple,
 			
 I had issues initially making my CV mobile friendly. This was because I was using 3rd party coding from w3 schools, which allowed me to use their coding to make the website responive. However, the @media was max-with, which meant it was not mobile friendly, so instead I used the coding from week 4 to make the CV responsive.  
 
+![](image/html1.jpg)
+
+In total I had 18 errors when I put my index code in the HTML validator. Because I did a lot of hard coding, it gave me minor errors such as providing an ‘alt’ attribute for my images, which means if my images did not appear to load up for some reason, the alt attribute would replace the image with the word I named it. Resolving these errors brought my errors down to 12. In addition to this, the remaining errors I had were duplicate of ID’s. Therefore, I had change the ID of them to give each of them a unique ID which resolved the error. 
+
+
 References
 
 https://developers.google.com/maps/documentation/javascript/
