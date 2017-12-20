@@ -16,6 +16,13 @@ I had issues initially making my CV mobile friendly. This was because I was usin
 
 In total I had 18 errors when I put my index code in the HTML validator. Because I did a lot of hard coding, it gave me minor errors such as providing an ‘alt’ attribute for my images, which means if my images did not appear to load up for some reason, the alt attribute would replace the image with the word I named it. Resolving these errors brought my errors down to 12. In addition to this, the remaining errors I had were duplicate of ID’s. Therefore, I had change the ID of them to give each of them a unique ID which resolved the error. 
 
+![](image/html2.jpg)
+
+By giving all my images and alt attribute and having unique ID’s for all my texts, it got cleared all of the errors and warnings I received. 
+
+![](image/css.jpg)
+
+I also had two CSS errors which I resolved instantly. I used some 3rd party coding to get the animated background to work. There was a parse error in line 9. I couldn’t identify what the error was, however I deleted the line of coding, and the error removed. This didn’t affect the animated background. The second error I had was a parse error at the end of my CSS coding. It turned out there was an unnecessary bracket which needed removing. I also used the code beautifier tool to make my CSS stylesheet look neat. 
 
 References
 
