@@ -31,6 +31,9 @@ I had **two CSS errors** which I resolved instantly. I used some 3rd party codin
 
 ![](image/neil1.jpg)
 
+I had Neil Patel to test my CV profile to see whether it met the standard of usability and if it was easy to navigate. There were several tests we carried out to see what was fine and what needed improving. The ‘not required’ means that the functionality works fine and doesn’t need to be improved. 
+
+![](image/usertesting.jpg)
 
 # References
 
