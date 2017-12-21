@@ -1,6 +1,6 @@
 # CV
 
-The assignment is a web based CV about myself created with HTML5, CSS and JavaScript. 
+The assignment is a web based CV about myself created with **HTML5**, **CSS** and **JavaScript**. 
 The CV created is mainly single-page app. This can be seen when clicking on any of the ‘a’ tags such as profile or achievements, on the navigation bar, the page scrolls down to the relevant section instead of redirecting to a new page. This was done by giving the headers id’s which also links in to the ‘href’ on the navigation bar. 
  
 ![](image/singlepage.jpg)
