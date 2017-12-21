@@ -21,11 +21,16 @@ In total I had **18 errors** when I put my index code in the HTML validator. Bec
 
 ![](image/html2.jpg)
 
-By giving all my images and alt attribute and having unique ID’s for all my texts, it got cleared all of the errors and warnings I received. 
+By giving all my images an alt attribute and having unique ID’s for all my texts, it cleared all the errors and warnings I received. I also cleared all the errors and issues for my contactme.html page. 
 
 ![](image/css.jpg)
 
-I also had **two CSS errors** which I resolved instantly. I used some 3rd party coding to get the animated background to work. There was a parse error in line 9. I couldn’t identify what the error was, however I deleted the line of coding, and the error removed. This didn’t affect the animated background. The second error I had was a parse error at the end of my CSS coding. It turned out there was an unnecessary bracket which needed removing. I also used the code beautifier tool to make my CSS stylesheet look neat. 
+I had **two CSS errors** which I resolved instantly. I used some 3rd party coding to get the animated background to work. There was a parse error in line 9. I couldn’t identify what the error was, however I deleted the line of coding, and the error removed. This didn’t affect the animated background. The second error I had was a parse error at the end of my CSS coding. It turned out there was an unnecessary bracket which needed removing. I also used the code beautifier tool to make my CSS stylesheet look neat. 
+
+# User Testing
+
+![](image/neil1.jpg) ![](image/neil2.jpg)
+
 
 # References
 
