@@ -29,7 +29,7 @@ I had **two CSS errors** which I resolved instantly. I used some 3rd party codin
 
 # User Testing
 
-![](image/neil1.jpg) ![](image/neil2.jpg)
+![](image/neil1.jpg)
 
 
 # References
