@@ -61,11 +61,15 @@ https://www.w3schools.com/cssref/pr_font_font-family.asp
 
 https://www.w3schools.com/cssref/pr_outline-style.asp
 
+https://stackoverflow.com/questions/12243818/adding-google-translate-to-a-web-site
+
 Lab Week 02 - Link nav to each heading 
 
 Lab Week 04 - Mobile First Responsiveness
 
 Lab week Week 07 - Image Slideshow
+
+
 
 
 			

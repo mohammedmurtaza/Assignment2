@@ -5,12 +5,18 @@
 		<title> Mohammed's CV </title>
 		<link rel="stylesheet" href="css/styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="javascript/googlemaps.js"></script>
+		<script src="javascript/script.js"></script>
+		<script src="javascript/translation.js"></script>	
 	</head>
 	
 	<body>
+		<div id="google_translate_element"></div>
+		<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		
 		<h1> Mohammed Murtaza's CV</h1>
 		<img src="image/mohammed.jpg" alt="Mohammed">
-	
+		
 		<a id="menu" href="#"><img id="menubutton" alt="Menu" src="image/menu.png"></a>
 		
 		<nav id="nav-menu">
@@ -33,16 +39,14 @@
 		<h2 id="contact"> 2 Denham Walk, Peterborough, PE3 9UE</h2>	
 
 		<div id="map"></div>
-		<script src="javascript/googlemaps.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA33e2H5TFouI2pciuJ1CMqI2zu9vFxEk&callback=myMap"></script>
-
+		
 		<section id ="profile">
 		<h2 id="profile.">Profile</h2>
 			<p id="text1"> A current Business Information System student who has recently completed a 12-month industrial placement at Caterpillar. This experience has enabled me to develop strong analytical skills and knowledge which can be applicable to any field of workplace.</p>
 			<p id="text2">Able to work well both individually and as part of a productive team demonstrating the motivation and problem-solving abilities required to meet demanding deadlines while maintaining the highest of standards.</p>
 			<p id="text3">I am seeking for an opportunity to work in a fast-paced environment where I can utilise my skills and put them into practice.</p>
 		</section>
-		
 		
 		<section id ="experience">
 		<h2 id="experience.">Experience</h2>
@@ -179,8 +183,6 @@
 			</div>
 		</section>
 		
-		<script src="javascript/script.js"></script>
-	
 	<footer>
 		<a href="#top"><img id="topbutton" alt="Back Top" src="image/top.png"></a>
 		<a href="sitemap.html"><img id="sitemap" alt="Sitemap" src="image/sitemap.jpg"></a>
