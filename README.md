@@ -13,7 +13,7 @@ However, there is one additional page which is linked to the CV. When clicking o
 
 ## Mobile First 
 
-![](wireframes/mobile1.pdf) ![](wireframes/mobile2.pdf)
+![](wireframes/mobile1.jpg) ![](wireframes/mobile2.jpg)
 
 ## Tablet Size 
 
