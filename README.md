@@ -17,11 +17,11 @@ However, there is one additional page which is linked to the CV. When clicking o
 
 ## Tablet Size 
 
-![](wireframes/tablet1.pdf) ![](wireframes/tablet2.pdf)
+![](wireframes/tablet1.jpg) ![](wireframes/tablet2.jpg)
 
 ## Desktop
 
-![](wireframes/desktop1.pdf) ![](wireframes/desktop2.pdf)
+![](wireframes/desktop1.jpg) ![](wireframes/desktop2.jpg)
 
 # Issues
 
