@@ -9,6 +9,20 @@ However, there is one additional page which is linked to the CV. When clicking o
 
 ![](image/seriesofpage.jpg)
 
+# Wireframes
+
+## Mobile First 
+
+![](wireframes/mobile1.pdf) ![](wireframes/mobile2.pdf)
+
+## Tablet Size 
+
+![](wireframes/tablet1.pdf) ![](wireframes/tablet2.pdf)
+
+## Desktop
+
+![](wireframes/desktop1.pdf) ![](wireframes/desktop2.pdf)
+
 # Issues
 
 One of the main issues I faced during the development process was rather simple, which was not being able to link the navbar to each of the headings on the CV page.  The reason for this is because I did not include ‘#’ tag after the ‘href’. Therefore, when I clicked on the on ‘a’ tags on the nav bar, they didn’t do anything.  I managed to resolve this issue by looking back at the lab work we did in Week 2. I noticed that we included the # tag after the ‘href’. Once I included this in my CV, it then worked. When I clicked on the relevant 'a' tag i.e. profile, it took me to the right heading (profile) of the CV.  
