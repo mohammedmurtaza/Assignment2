@@ -41,6 +41,10 @@ nav {
   display: none;
 }
 
+nav a:hover {
+  background: #ffffff;
+}
+
 nav a {
   padding: 1em;
   display: block;
@@ -291,6 +295,7 @@ main {
   height: 400px;
   overflow: hidden;
   position: relative;
+	margin-bottom: -75px;
 }
 
 .slideshow img {
@@ -379,6 +384,17 @@ img:nth-child(5) {
 #email {
 	width: 200px;
 }
+
+.goog-logo-link {
+   display:none !important;
+}
+.goog-te-gadget{
+   color: transparent !important;
+}
+.goog-te-gadget .goog-te-combo{
+   color: black !important;
+}
+
 
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -508,6 +524,7 @@ img:nth-child(5) {
     height: 400px;
     overflow: hidden;
     position: relative;
+		margin-bottom: 0px;
   }
 
   .slideshow img {
@@ -667,6 +684,7 @@ img:nth-child(5) {
     height: 400px;
     overflow: hidden;
     position: relative;
+		margin-bottom: 0px;
   }
 
   .slideshow img {
@@ -738,5 +756,5 @@ img:nth-child(5) {
   height: 50px;
 	margin: auto;
 	}
-
+	
 }
