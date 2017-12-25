@@ -295,7 +295,6 @@ main {
   height: 400px;
   overflow: hidden;
   position: relative;
-	margin-bottom: -55px;
 }
 
 .slideshow img {
@@ -307,6 +306,11 @@ main {
   animation: round 16s infinite;
   opacity: 0;
   padding: 25px;
+}
+
+#hobbies {
+	margin-top: -80px;
+
 }
 
 @keyframes round {
