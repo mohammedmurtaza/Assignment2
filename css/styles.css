@@ -259,7 +259,7 @@ main {
 }
 
 #linkedin {
-  border-radius: 8px;
+	border-radius: 8px;
   width: 50px;
   height: 50px;
 }
@@ -295,7 +295,7 @@ main {
   height: 400px;
   overflow: hidden;
   position: relative;
-	margin-bottom: -75px;
+	margin-bottom: -55px;
 }
 
 .slideshow img {
@@ -350,7 +350,6 @@ img:nth-child(5) {
 	border-radius: 8px;
   width: 50px;
   height: 50px;
-	
 }
 
 #ph2 {
@@ -559,18 +558,18 @@ img:nth-child(5) {
 	}
 	
 	#ph3 {
-	font-size: 18px;
-  font-family: Impact, Charcoal, sans-serif;
-  text-transform: uppercase;
-  color: #000000;
-	margin-bottom: 140px;
+		font-size: 18px;
+		font-family: Impact, Charcoal, sans-serif;
+		text-transform: uppercase;
+		color: #000000;
+		margin-bottom: 140px;
 	}
 	
 	#topbutton {
-	border-radius: 8px;
-  width: 50px;
-  height: 50px;
-	margin: auto;
+		border-radius: 8px;
+		width: 50px;
+		height: 50px;
+		margin: auto;
 	}
 }
 
@@ -697,7 +696,6 @@ img:nth-child(5) {
     padding: 30px;
   }
 	
-
 	img:nth-child(1) {
 		animation-delay: 12s;
 	}
@@ -750,10 +748,10 @@ img:nth-child(5) {
 	}
 	
 	#topbutton {
-	border-radius: 8px;
-  width: 50px;
-  height: 50px;
-	margin: auto;
+		border-radius: 8px;
+		width: 50px;
+		height: 50px;
+		margin: auto;
 	}
 	
 }
